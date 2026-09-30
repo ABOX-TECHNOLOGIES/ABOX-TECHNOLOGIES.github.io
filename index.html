@@ -15,17 +15,17 @@
   <title>ABOX Technologies — Your partner for the transition into the AI era</title>
   <meta name="description" content="ABOX Technologies helps businesses move confidently into the AI era: strategy, custom AI solutions, automation, and team enablement.">
   <link rel="canonical" href="https://aboxtechs.com/">
-  <meta name="theme-color" content="#070B14">
+  <meta name="theme-color" content="#101714">
   <meta property="og:type" content="website">
   <meta property="og:title" content="ABOX Technologies">
   <meta property="og:description" content="Open the box. Let the future out. We help businesses transition into the AI era.">
   <meta property="og:url" content="https://aboxtechs.com/">
   <meta property="og:image" content="https://aboxtechs.com/assets/logo.svg">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Organization","name":"ABOX Technologies","url":"https://aboxtechs.com/","logo":"https://aboxtechs.com/assets/logo.svg","email":"hello@aboxtechs.com","description":"Helping businesses transition into the AI era through strategy, custom AI solutions, automation and training."}
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
@@ -36,16 +36,16 @@
         <img src="assets/logo-mark.svg" alt="" width="44" height="44">
         <span class="brand-text">ABOX<small>TECHNOLOGIES</small></span>
       </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
         <span></span><span></span><span></span>
       </button>
-      <nav id="site-nav" class="site-nav">
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <a href="#services" data-i18n="nav.services">Services</a>
         <a href="#approach" data-i18n="nav.approach">Approach</a>
         <a href="#why" data-i18n="nav.why">Why ABOX</a>
         <a href="#contact" data-i18n="nav.contact">Contact</a>
         <button class="lang-toggle" type="button" aria-label="Switch language">中文</button>
-        <a class="btn btn-primary btn-sm" href="mailto:hello@aboxtechs.com" data-i18n="nav.cta">Talk to us</a>
+        <a class="btn btn-primary btn-sm" href="#contact" data-i18n="nav.cta">Let’s talk ↗</a>
       </nav>
     </div>
   </header>
@@ -56,12 +56,13 @@
       <div class="hero-bg" aria-hidden="true"></div>
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow" data-i18n="hero.eyebrow">AI transition partners</p>
+          <p class="eyebrow hero-eyebrow" data-i18n="hero.eyebrow">Human ambition. AI possibility.</p>
           <h1 data-i18n="hero.title">Open the box.<br><span class="grad">Let the future out.</span></h1>
-          <p class="lead" data-i18n="hero.lead">ABOX Technologies helps businesses move from AI curiosity to AI capability — turning headlines into working systems that fit the way you already operate.</p>
+          <p class="hero-purpose" data-i18n="hero.purpose">Your business. Ready for the AI era.</p>
+          <p class="lead" data-i18n="hero.lead">Turn your knowledge, tools, and everyday workflows into practical AI capability. We help you find the right starting point, build it, and bring your team along.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="mailto:hello@aboxtechs.com" data-i18n="hero.cta1">Start your transition</a>
-            <a class="btn btn-ghost" href="#approach" data-i18n="hero.cta2">See how we work</a>
+            <a class="btn btn-primary" href="#contact" data-i18n="hero.cta1">Start a conversation ↗</a>
+            <a class="btn btn-ghost" href="#use-cases" data-i18n="hero.cta2">Explore the possibilities ↓</a>
           </div>
           <ul class="hero-tags" aria-label="Focus areas">
             <li data-i18n="tag.strategy">Strategy</li>
@@ -70,10 +71,15 @@
             <li data-i18n="tag.enable">Enable</li>
           </ul>
         </div>
-        <div class="hero-visual" aria-hidden="true">
+        <div class="hero-visual">
+          <span class="visual-caption" data-i18n="visual.caption">A BOX OF POSSIBILITIES</span>
+          <span class="visual-coordinate" aria-hidden="true">ABX / 001</span>
+          <div class="visual-grid" aria-hidden="true"></div>
+          <div class="visual-aura" aria-hidden="true"></div>
+          <svg class="signal-paths" viewBox="0 0 520 520" fill="none" aria-hidden="true"><path d="M260 220V114H410M240 250H85V345M290 320V410H430"/><circle cx="410" cy="114" r="4"/><circle cx="85" cy="345" r="4"/><circle cx="430" cy="410" r="4"/></svg>
           <div class="orbit orbit-a"></div>
           <div class="orbit orbit-b"></div>
-          <svg class="hero-mark" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <svg class="hero-mark" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <defs>
               <linearGradient id="h-face" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0" stop-color="#1E293B"/><stop offset="1" stop-color="#0B1220"/>
@@ -129,46 +135,100 @@
             </g>
             <polygon points="100,60 152,90 176,44 124,14" fill="url(#h-lid)" stroke="url(#h-edge)" stroke-width="2.4" stroke-linejoin="round"/>
           </svg>
+          <span class="signal-label signal-ai"><span class="signal-symbol" aria-hidden="true">✦</span><span data-i18n="visual.ai">Intelligence</span></span>
+          <span class="signal-label signal-connect"><span class="signal-symbol" aria-hidden="true">⌘</span><span data-i18n="visual.connect">Connection</span></span>
+          <span class="signal-label signal-automate"><span class="signal-symbol" aria-hidden="true">↗</span><span data-i18n="visual.automate">Possibility</span></span>
+          <span class="visual-bottom" data-i18n="visual.bottom">Open a new chapter.</span>
         </div>
       </div>
     </section>
 
+    <div class="capability-strip">
+      <div class="container capability-grid">
+        <p data-i18n="strip.intro">From possibility<br><strong>to everyday progress.</strong></p>
+        <div><span class="strip-num">01 /</span><span data-i18n="strip.one">Make knowledge accessible</span></div>
+        <div><span class="strip-num">02 /</span><span data-i18n="strip.two">Give time back to your team</span></div>
+        <div><span class="strip-num">03 /</span><span data-i18n="strip.three">Build capability that lasts</span></div>
+      </div>
+    </div>
+
     <!-- Services -->
-    <section class="section" id="services">
+    <section class="section section-light" id="services">
       <div class="container">
         <div class="section-head reveal">
           <p class="eyebrow" data-i18n="services.eyebrow">What we do</p>
-          <h2 data-i18n="services.title">Everything you need to make AI real inside your business</h2>
-          <p class="sub" data-i18n="services.sub">No hype, no science projects. We focus on the work that moves you from where you are to where AI genuinely helps.</p>
+          <h2 data-i18n="services.title">Big possibilities.<br>Practical next steps.</h2>
+          <p class="sub" data-i18n="services.sub">Start with one opportunity or plan a broader transformation. We connect the strategy, the technology, and the people.</p>
         </div>
         <div class="grid grid-4">
           <article class="card reveal">
+            <span class="card-number" aria-hidden="true">01</span>
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="3"/></svg>
             </div>
             <h3 data-i18n="s1.title">AI Strategy &amp; Readiness</h3>
             <p data-i18n="s1.body">We assess your data, processes, and teams, then map a practical AI roadmap ranked by impact and feasibility.</p>
+            <p class="deliverable" data-i18n="s1.output">Your starting point: a prioritized AI roadmap</p>
           </article>
           <article class="card reveal">
+            <span class="card-number" aria-hidden="true">02</span>
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7l8-4 8 4-8 4-8-4z"/><path d="M4 12l8 4 8-4M4 17l8 4 8-4"/></svg>
             </div>
             <h3 data-i18n="s2.title">Custom AI Solutions</h3>
             <p data-i18n="s2.body">Assistants, copilots, document intelligence, and prediction models built on your knowledge and your workflows.</p>
+            <p class="deliverable" data-i18n="s2.output">Your next step: a focused, working prototype</p>
           </article>
           <article class="card reveal">
+            <span class="card-number" aria-hidden="true">03</span>
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="7" height="7" rx="1.5"/><rect x="14" y="13" width="7" height="7" rx="1.5"/><path d="M10 7.5h4a3 3 0 0 1 3 3V13M14 16.5h-4a3 3 0 0 1-3-3V11"/></svg>
             </div>
             <h3 data-i18n="s3.title">Automation &amp; Integration</h3>
             <p data-i18n="s3.body">We connect AI to the tools you already run — CRM, ERP, support, operations — so results show up where the work happens.</p>
+            <p class="deliverable" data-i18n="s3.output">Your workflow: connected and repeatable</p>
           </article>
           <article class="card reveal">
+            <span class="card-number" aria-hidden="true">04</span>
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M21 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
             </div>
             <h3 data-i18n="s4.title">Training &amp; Change Enablement</h3>
             <p data-i18n="s4.body">Hands-on programs that turn your people into confident AI users, with governance and guardrails built in.</p>
+            <p class="deliverable" data-i18n="s4.output">Your team: equipped to use and own the result</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section use-cases" id="use-cases">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="cases.eyebrow">AI in the everyday</p>
+          <h2 data-i18n="cases.title">What could your business unlock?</h2>
+          <p class="sub" data-i18n="cases.sub">A few places to start. Each solution is shaped around your data, your team, and the way you work.</p>
+        </div>
+        <div class="case-grid">
+          <article class="case reveal">
+            <div class="case-art art-knowledge" aria-hidden="true"><div class="document-stack"><span></span><span></span><span></span></div><span class="art-spark">✦</span><div class="answer-lines"><i></i><i></i><i></i></div></div>
+            <p class="case-label" data-i18n="case1.label">Knowledge → answers</p>
+            <h3 data-i18n="case1.title">An assistant that knows your business.</h3>
+            <p data-i18n="case1.body">Help your team find answers across internal documents, policies, and product knowledge, with sources they can check.</p>
+            <a class="text-link" href="#contact" data-i18n="cases.cta">Discuss this idea ↗</a>
+          </article>
+          <article class="case reveal">
+            <div class="case-art art-workflow" aria-hidden="true"><span class="flow-node">01</span><span class="flow-line"></span><span class="flow-node flow-ai">✦</span><span class="flow-line"></span><span class="flow-node">↗</span></div>
+            <p class="case-label" data-i18n="case2.label">Repetition → momentum</p>
+            <h3 data-i18n="case2.title">Less admin. More meaningful work.</h3>
+            <p data-i18n="case2.body">Extract information from documents, prepare drafts, and route routine tasks between your tools, with human review where it matters.</p>
+            <a class="text-link" href="#contact" data-i18n="cases.cta">Discuss this idea ↗</a>
+          </article>
+          <article class="case reveal">
+            <div class="case-art art-team" aria-hidden="true"><span class="team-orbit"></span><span class="team-center">✦</span><span class="team-dot dot-one"></span><span class="team-dot dot-two"></span><span class="team-dot dot-three"></span></div>
+            <p class="case-label" data-i18n="case3.label">Experimentation → confidence</p>
+            <h3 data-i18n="case3.title">A team ready to work with AI.</h3>
+            <p data-i18n="case3.body">Turn scattered experiments into shared practices through role-specific training, clear guidelines, and workflows your team can reuse.</p>
+            <a class="text-link" href="#contact" data-i18n="cases.cta">Discuss this idea ↗</a>
           </article>
         </div>
       </div>
@@ -179,7 +239,7 @@
       <div class="container">
         <div class="section-head reveal">
           <p class="eyebrow" data-i18n="approach.eyebrow">How we work</p>
-          <h2 data-i18n="approach.title">A clear path from first conversation to lasting capability</h2>
+          <h2 data-i18n="approach.title">Start small.<br>Build with purpose.</h2>
           <p class="sub" data-i18n="approach.sub">Four stages, each with concrete deliverables. You always know what comes next and why.</p>
         </div>
         <ol class="steps">
@@ -187,33 +247,37 @@
             <span class="step-num">01</span>
             <h3 data-i18n="st1.title">Assess</h3>
             <p data-i18n="st1.body">Understand your goals, data, systems, and constraints. Identify the highest-value opportunities.</p>
+            <span class="step-output" data-i18n="st1.output">Opportunity map</span>
           </li>
           <li class="step reveal">
             <span class="step-num">02</span>
             <h3 data-i18n="st2.title">Pilot</h3>
-            <p data-i18n="st2.body">Ship a focused proof of value in weeks, not quarters — measured against real business outcomes.</p>
+            <p data-i18n="st2.body">Build a focused pilot and test it against agreed business goals before expanding.</p>
+            <span class="step-output" data-i18n="st2.output">Validated pilot</span>
           </li>
           <li class="step reveal">
             <span class="step-num">03</span>
             <h3 data-i18n="st3.title">Scale</h3>
             <p data-i18n="st3.body">Harden what works, integrate it into daily operations, and expand across teams and use cases.</p>
+            <span class="step-output" data-i18n="st3.output">Integrated workflows</span>
           </li>
           <li class="step reveal">
             <span class="step-num">04</span>
             <h3 data-i18n="st4.title">Sustain</h3>
             <p data-i18n="st4.body">Train your teams, set up governance, and keep improving as the technology evolves.</p>
+            <span class="step-output" data-i18n="st4.output">Team playbook</span>
           </li>
         </ol>
       </div>
     </section>
 
     <!-- Why ABOX -->
-    <section class="section" id="why">
+    <section class="section section-light" id="why">
       <div class="container why-grid">
         <div class="why-copy reveal">
           <p class="eyebrow" data-i18n="why.eyebrow">Why ABOX</p>
           <h2 data-i18n="why.title">The box is open. What comes out is up to you.</h2>
-          <p class="sub" data-i18n="why.sub">In the old myth, opening the box changed the world forever. AI is that kind of moment. The difference is that this time, you choose what escapes — and we make sure it works in your favour.</p>
+          <p class="sub" data-i18n="why.sub">In the old myth, opening the box changed the world forever. AI is that kind of moment. This time, you choose what escapes — and we help you put it to work.</p>
           <ul class="checks">
             <li data-i18n="why.p1"><strong>Business first.</strong> Every project starts from an outcome, not a model.</li>
             <li data-i18n="why.p2"><strong>Built to fit.</strong> We work inside your existing stack and processes.</li>
@@ -222,9 +286,22 @@
           </ul>
         </div>
         <figure class="quote-card reveal">
+          <img src="assets/logo-mark.svg" width="120" height="120" alt="" loading="lazy">
+          <span class="quote-kicker" data-i18n="why.kicker">The idea behind ABOX</span>
           <blockquote data-i18n="why.quote">“Every era has its box. Ours opens onto intelligence, connection, and speed. We help you step through with confidence.”</blockquote>
           <figcaption>— ABOX Technologies</figcaption>
         </figure>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-grid">
+        <div class="section-head reveal"><p class="eyebrow" data-i18n="faq.eyebrow">Before you start</p><h2 data-i18n="faq.title">Good questions.<br>Clear answers.</h2></div>
+        <div class="faq-list reveal">
+          <details><summary data-i18n="faq.q1">We’re new to AI. Where do we begin?</summary><p data-i18n="faq.a1">Start with one process that takes time or makes information hard to find. We can help assess its fit for AI and define a manageable first project.</p></details>
+          <details><summary data-i18n="faq.q2">Can we keep using our existing tools?</summary><p data-i18n="faq.a2">We start by looking at the tools you already use. Where access and integrations allow, we connect AI to your existing systems and agree any changes with you.</p></details>
+          <details><summary data-i18n="faq.q3">How do you approach sensitive business data?</summary><p data-i18n="faq.a3">Data access, hosting, model choice, and human oversight are part of the initial assessment. We agree the requirements with you before implementation.</p></details>
+        </div>
       </div>
     </section>
 
@@ -234,10 +311,13 @@
         <div>
           <p class="eyebrow" data-i18n="contact.eyebrow">Get in touch</p>
           <h2 data-i18n="contact.title">Ready to open the box?</h2>
-          <p class="sub" data-i18n="contact.sub">Tell us where you are and where you want to be. We’ll reply within one business day with a suggested first step.</p>
+          <p class="sub" data-i18n="contact.sub">Tell us what your team does, what slows you down, and what you’d like to change. We’ll help you identify a practical next step.</p>
+          <p class="contact-prompt" data-i18n="contact.prompt">Not sure where to start? That’s a good place to start.</p>
         </div>
         <div class="cta-actions">
-          <a class="btn btn-primary btn-lg" href="mailto:hello@aboxtechs.com?subject=AI%20transition%20inquiry">hello@aboxtechs.com</a>
+          <a class="btn btn-primary btn-lg" href="mailto:hello@aboxtechs.com?subject=AI%20transition%20inquiry">hello@aboxtechs.com <span aria-hidden="true">↗</span></a>
+          <button class="copy-email" type="button" data-i18n="contact.copy">Copy email address</button>
+          <span class="copy-status" role="status" aria-live="polite"></span>
           <p class="cta-note" data-i18n="contact.note">Prefer a call? Mention it in your email and we’ll schedule one.</p>
         </div>
       </div>
